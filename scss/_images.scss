@@ -24,5 +24,11 @@
 
 .footer__article__container--phone,
 .footer__article__container--image {
-    margin-right: $margin-left;
+    margin-right: $margin-right;
+}
+
+
+.footer__icon__location {
+    width: 20px;
+    margin-right: $margin-right;
 }

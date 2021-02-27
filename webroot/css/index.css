@@ -58,6 +58,10 @@ body {
 .footer__article__container--image {
   margin-right: 1rem; }
 
+.footer__icon__location {
+  width: 20px;
+  margin-right: 1rem; }
+
 .diversity {
   text-align: center;
   margin-block-start: 5%;
@@ -119,6 +123,8 @@ body {
     margin: 1rem; }
   .footer__navigation1__linklist, .footer__navigation2__linklist {
     margin-top: 1rem; }
+  .footer__links {
+    margin-inline-start: 2.5%; }
 
 .facebook {
   background-image: url("../images/facebook.png");
