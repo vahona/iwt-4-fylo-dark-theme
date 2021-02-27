@@ -19,7 +19,8 @@
 
 .footer__image {
     margin-inline-start: 5%;
-    margin-block-start: 5%;
+    margin-block-start: calc(#{$margin-block-start} * 10) ;
+  
 }
 
 .footer__article__container--phone,

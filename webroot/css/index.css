@@ -52,7 +52,7 @@ body {
 
 .footer__image {
   margin-inline-start: 5%;
-  margin-block-start: 5%; }
+  margin-block-start: calc(1rem * 10); }
 
 .footer__article__container--phone,
 .footer__article__container--image {
@@ -74,7 +74,11 @@ body {
 .access {
   color: white;
   text-align: center;
-  background-color: #1c2431; }
+  margin-inline-start: 5%;
+  margin-inline-end: 5%;
+  background-color: #1c2431;
+  position: absolute;
+  margin-top: calc(1rem * -6); }
   .access__form__input {
     border: none;
     padding-inline-end: calc(1rem * 3);
@@ -145,11 +149,14 @@ body {
   background-size: 100%; }
 
 .person {
-  color: white; }
+  color: white;
+  margin-bottom: calc(1rem * 7); }
   .person__patel, .person__bruce, .person__iva {
     background-color: #202a3c;
     margin: 5%;
-    border-radius: 5px; }
+    border-radius: 5px;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%; }
   .person__container {
     padding: calc(1rem * 2); }
   .person__patel__container, .person__bruce__container, .person__iva__container {

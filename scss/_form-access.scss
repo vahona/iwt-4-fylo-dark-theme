@@ -1,8 +1,11 @@
 .access {
     color: white;
     text-align: center;
-
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
     background-color: hsl(217, 28%, 15%);
+    position: absolute;
+    margin-top: calc(#{$margin-top} * -6);
 
     &__title {
 

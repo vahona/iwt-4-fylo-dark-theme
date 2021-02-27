@@ -1,5 +1,6 @@
 .person {
     color: white;
+    margin-bottom: calc(#{$margin-bottom} * 7);
 
 
     &__patel,
@@ -8,6 +9,8 @@
         background-color: hsl(219, 30%, 18%);
         margin: 5%;
         border-radius: 5px;
+        margin-inline-start: 10%;
+        margin-inline-end: 10%;
     }
 
     &__container {
