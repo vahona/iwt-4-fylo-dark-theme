@@ -50,6 +50,14 @@ body {
 .person__iva__image {
   border-radius: 50%; }
 
+.footer__image {
+  margin-inline-start: 5%;
+  margin-block-start: 5%; }
+
+.footer__article__container--phone,
+.footer__article__container--image {
+  margin-right: 1rem; }
+
 .diversity {
   text-align: center;
   margin-block-start: 5%;
@@ -83,6 +91,52 @@ body {
     margin-bottom: 1rem; }
   .access__container {
     padding: 1rem; }
+
+.footer {
+  color: white;
+  background-color: #0b1523; }
+  .footer__paragraph {
+    margin-inline-start: 5%; }
+  .footer__article__container--link {
+    text-decoration: none;
+    color: white;
+    margin-inline-start: 5%; }
+  .footer__article__container {
+    margin-top: 1rem; }
+  .footer__navigation1__list, .footer__navigation2__list, .footer__navigation3__list {
+    list-style: none; }
+  .footer__navigation1__list--anchore, .footer__navigation2__list--anchore, .footer__navigation3__list--anchore {
+    color: white;
+    text-decoration: none; }
+  .footer__navigation3__list--anchore {
+    text-indent: -9999px;
+    display: inline-block; }
+  .footer__navigation3__list {
+    display: flex;
+    text-align: center;
+    justify-content: center; }
+  .footer__navigation3__linklist {
+    margin: 1rem; }
+  .footer__navigation1__linklist, .footer__navigation2__linklist {
+    margin-top: 1rem; }
+
+.facebook {
+  background-image: url("../images/facebook.png");
+  background-repeat: no-repeat;
+  padding: 1rem;
+  background-size: 100%; }
+
+.twitter {
+  background-image: url("../images/twitter.jpg");
+  background-repeat: no-repeat;
+  padding: 1rem;
+  background-size: 100%; }
+
+.istogram {
+  background-image: url("../images/istagram.png");
+  background-repeat: no-repeat;
+  padding: 1rem;
+  background-size: 100%; }
 
 .person {
   color: white; }

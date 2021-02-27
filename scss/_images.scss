@@ -16,3 +16,13 @@
     border-radius: 50%;
     // width: 40%;
 }
+
+.footer__image {
+    margin-inline-start: 5%;
+    margin-block-start: 5%;
+}
+
+.footer__article__container--phone,
+.footer__article__container--image {
+    margin-right: $margin-left;
+}

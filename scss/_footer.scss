@@ -1,0 +1,76 @@
+.footer {
+    color: white;
+    background-color: hsl(216, 53%, 9%);
+
+
+    &__paragraph {
+        margin-inline-start: 5%;
+    }
+
+    &__article__container--link {
+        text-decoration: none;
+        color: white;
+        margin-inline-start: 5%;
+        
+    }
+
+    &__article__container {
+        margin-top: $margin-top;
+    }
+
+
+    &__navigation1__list,
+    &__navigation2__list,
+    &__navigation3__list {
+        list-style: $list-style;
+    }
+
+    &__navigation1__list--anchore,
+    &__navigation2__list--anchore,
+    &__navigation3__list--anchore {
+       color: white;
+       text-decoration: none;
+    }
+
+    &__navigation3__list--anchore {
+        text-indent: -9999px;
+        display: inline-block;
+    }
+
+    &__navigation3__list {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &__navigation3__linklist {
+        margin: $margin;
+    }
+
+    &__navigation1__linklist,
+    &__navigation2__linklist {
+        margin-top: $margin-top;
+    }
+}
+
+.facebook {
+    background-image: url("../images/facebook.png");
+    background-repeat: no-repeat;
+    padding: $padding;
+    background-size: 100%;
+    
+}
+
+.twitter {
+    background-image: url("../images/twitter.jpg");
+    background-repeat: no-repeat;
+    padding: $padding;
+    background-size: 100%;
+}
+
+.istogram {
+    background-image: url("../images/istagram.png");
+    background-repeat: no-repeat;
+    padding: $padding;
+    background-size: 100%;
+}
