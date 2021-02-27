@@ -13,4 +13,16 @@
     &__container {
         padding:calc(#{$padding} * 2);
     }
+
+    &__patel__container,
+    &__bruce__container,
+    &__iva__container {
+        display: flex;
+        
+    }
+
+    &__patel__subcontainer {
+        margin-inline-start: 20px;
+        margin-block-start:  $margin-block-start;
+    }
 }

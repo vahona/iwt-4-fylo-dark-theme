@@ -45,6 +45,11 @@ body {
   margin-inline-end: 10%;
   margin-inline-start: 10%; }
 
+.person__patel__image,
+.person__bruce__image,
+.person__iva__image {
+  border-radius: 50%; }
+
 .diversity {
   text-align: center;
   margin-block-start: 5%;
@@ -62,6 +67,11 @@ body {
     border-radius: 5px; }
   .person__container {
     padding: calc(1rem * 2); }
+  .person__patel__container, .person__bruce__container, .person__iva__container {
+    display: flex; }
+  .person__patel__subcontainer {
+    margin-inline-start: 20px;
+    margin-block-start: 1rem; }
 
 .productive {
   color: white; }
