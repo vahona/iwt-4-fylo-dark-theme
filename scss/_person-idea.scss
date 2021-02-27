@@ -1,0 +1,16 @@
+.person {
+    color: white;
+
+
+    &__patel,
+    &__bruce,
+    &__iva {
+        background-color: hsl(219, 30%, 18%);
+        margin: 5%;
+        border-radius: 5px;
+    }
+
+    &__container {
+        padding:calc(#{$padding} * 2);
+    }
+}

@@ -54,6 +54,15 @@ body {
 .diversity__container {
   color: white; }
 
+.person {
+  color: white; }
+  .person__patel, .person__bruce, .person__iva {
+    background-color: #202a3c;
+    margin: 5%;
+    border-radius: 5px; }
+  .person__container {
+    padding: calc(1rem * 2); }
+
 .productive {
   color: white; }
   .productive__title, .productive__container {
