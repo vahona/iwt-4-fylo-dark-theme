@@ -43,3 +43,12 @@ body {
   width: 80%;
   margin-inline-end: 10%;
   margin-inline-start: 10%; }
+
+.diversity {
+  text-align: center;
+  margin-block-start: 5%;
+  margin-inline-end: 5%;
+  margin-inline-start: 5%; }
+
+.diversity__container {
+  color: white; }
