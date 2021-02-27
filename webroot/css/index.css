@@ -39,7 +39,8 @@ body {
 .masthead__logotitle {
   width: 80%; }
 
-.security__image {
+.security__image,
+.productive__image {
   width: 80%;
   margin-inline-end: 10%;
   margin-inline-start: 10%; }
@@ -52,3 +53,13 @@ body {
 
 .diversity__container {
   color: white; }
+
+.productive {
+  color: white; }
+  .productive__title, .productive__container {
+    margin-inline-start: 5%;
+    margin-inline-end: 5%; }
+  .productive__link {
+    text-decoration: none;
+    color: #65e2d9;
+    margin-inline-start: 5%; }

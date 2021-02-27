@@ -1,0 +1,16 @@
+.productive {
+    color: white;
+
+
+    &__title,
+    &__container {
+       margin-inline-start: 5%;
+       margin-inline-end: 5%;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: hsl(176, 68%, 64%);
+        margin-inline-start: 5%;
+    }
+}
