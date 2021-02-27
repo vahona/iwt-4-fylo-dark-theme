@@ -1,0 +1,33 @@
+.access {
+    color: white;
+    text-align: center;
+
+    &__title {
+
+    }
+
+    &__form__input {
+        border: none;
+        padding-inline-end: calc(#{$padding-inline-end} * 3);
+        padding-inline-start: calc(#{$padding-inline-start} * 3);
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
+        border-radius: 20px;
+
+    }
+
+
+    &__form__button {
+        border: none;
+        padding-inline-end: calc(#{$padding-inline-end} * 4);
+        padding-inline-start: calc(#{$padding-inline-start} * 4);
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
+        border-radius: 20px;
+        background-color: hsl(176, 68%, 64%);
+        color: white;
+        margin-top: $margin-top;
+        margin-bottom: $margin-bottom;
+    }
+
+}

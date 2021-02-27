@@ -59,6 +59,28 @@ body {
 .diversity__container {
   color: white; }
 
+.access {
+  color: white;
+  text-align: center; }
+  .access__form__input {
+    border: none;
+    padding-inline-end: calc(1rem * 3);
+    padding-inline-start: calc(1rem * 3);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px; }
+  .access__form__button {
+    border: none;
+    padding-inline-end: calc(1rem * 4);
+    padding-inline-start: calc(1rem * 4);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    background-color: #65e2d9;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+
 .person {
   color: white; }
   .person__patel, .person__bruce, .person__iva {
