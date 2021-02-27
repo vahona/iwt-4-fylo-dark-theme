@@ -1,0 +1,51 @@
+
+.masthead {
+   display: flex;
+
+
+    &__navigation__list {
+        list-style: $list-style;
+        display: flex;
+        position: absolute;
+        right: 10%;
+
+        
+    }
+
+    &__navigation__list--anchore {
+        text-decoration: $text-decoration;
+        color: gainsboro;
+        
+    }
+
+
+    &__navigation__list--link {
+        margin: 5%;
+    }
+
+}
+
+.security {
+ 
+    text-align: center;
+
+   &__title {
+      color: white;
+   }
+
+   &__paragraph {
+    color: white;
+   }
+
+    &__button {
+        background-color:   hsl(176, 68%, 64%);
+        border: none;
+        color: white;
+        border-radius: 20px;
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
+        padding-right: calc(#{$padding-right} * 3);
+        padding-left:  calc(#{$padding-left} * 3);;
+    }
+}
+

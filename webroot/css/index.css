@@ -6,3 +6,40 @@ body {
   margin-inline-start: auto;
   margin-inline-end: auto;
   background-color: #181f2a; }
+
+.masthead {
+  display: flex; }
+  .masthead__navigation__list {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 10%; }
+  .masthead__navigation__list--anchore {
+    text-decoration: none;
+    color: gainsboro; }
+  .masthead__navigation__list--link {
+    margin: 5%; }
+
+.security {
+  text-align: center; }
+  .security__title {
+    color: white; }
+  .security__paragraph {
+    color: white; }
+  .security__button {
+    background-color: #65e2d9;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: calc(1rem * 3);
+    padding-left: calc(1rem * 3); }
+
+.masthead__logotitle {
+  width: 80%; }
+
+.security__image {
+  width: 80%;
+  margin-inline-end: 10%;
+  margin-inline-start: 10%; }
