@@ -8,7 +8,8 @@ body {
   background-color: #181f2a; }
 
 .masthead {
-  display: flex; }
+  display: flex;
+  position: relative; }
   .masthead__navigation__list {
     list-style: none;
     display: flex;
