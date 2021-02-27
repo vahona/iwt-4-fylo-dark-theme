@@ -52,7 +52,7 @@ body {
 
 .footer__image {
   margin-inline-start: 5%;
-  margin-block-start: calc(1rem * 10); }
+  margin-block-start: calc(1rem * 15); }
 
 .footer__article__container--phone,
 .footer__article__container--image {
