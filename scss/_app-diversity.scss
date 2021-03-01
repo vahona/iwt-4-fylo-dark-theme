@@ -9,3 +9,12 @@
 .diversity__container {
     color: white;
 }
+
+@media(min-width: 800px) {
+    .diversity {
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        grid-gap: 10%;
+        margin-block-end: calc(#{$margin-block-end} * 4);
+    }
+}

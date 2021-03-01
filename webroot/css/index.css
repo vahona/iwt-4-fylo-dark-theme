@@ -56,7 +56,8 @@ body {
     right: 10%; }
   .masthead__navigation__list--anchore {
     text-decoration: none;
-    color: gainsboro; }
+    color: gainsboro;
+    width: 100%; }
   .masthead__navigation__list--link {
     margin: 5%; }
 
@@ -110,6 +111,13 @@ body {
 
 .diversity__container {
   color: white; }
+
+@media (min-width: 800px) {
+  .diversity {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-gap: 10%;
+    margin-block-end: calc(1rem * 4); } }
 
 .access {
   color: white;
