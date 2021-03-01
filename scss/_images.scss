@@ -33,3 +33,11 @@
     width: 20px;
     margin-right: $margin-right;
 }
+
+@media(min-width: 800px) {
+    .productive__image {
+        width: 50%;
+        margin-inline-end: 5%;
+        margin-inline-start: 10%;
+}
+}

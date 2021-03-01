@@ -18,3 +18,16 @@
         margin-inline-start: 10%;
     }
 }
+
+
+@media(min-width: 800px) {
+    .productive {
+        display: flex;
+    }
+
+    .productive__text__container {
+        margin-inline-start: 0;
+    }
+}
+
+
