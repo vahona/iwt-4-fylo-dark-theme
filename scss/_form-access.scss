@@ -41,3 +41,10 @@
     }
 
 }
+
+@media(min-width: 800px) {
+    .access__form__input {
+        margin-right: calc(#{$margin-right} * 2);
+        padding-inline-end: 30%;
+    }
+}

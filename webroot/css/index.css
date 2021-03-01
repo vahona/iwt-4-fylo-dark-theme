@@ -155,6 +155,11 @@ body {
   .access__container {
     padding: 1rem; }
 
+@media (min-width: 800px) {
+  .access__form__input {
+    margin-right: calc(1rem * 2);
+    padding-inline-end: 30%; } }
+
 .footer {
   color: white;
   background-color: #0b1523; }
