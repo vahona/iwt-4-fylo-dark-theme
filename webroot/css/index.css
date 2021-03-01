@@ -89,7 +89,8 @@ body {
 .person__patel__image,
 .person__bruce__image,
 .person__iva__image {
-  border-radius: 50%; }
+  border-radius: 50%;
+  width: 20%; }
 
 .footer__image {
   margin-inline-start: 5%;
@@ -211,6 +212,11 @@ body {
     border-radius: 5px;
     margin-inline-start: 10%;
     margin-inline-end: 10%; }
+  .person__patel__name, .person__bruce__name, .person__iva__name, .person__patel__job, .person__bruce__job, .person__iva__job {
+    margin-block-end: 0;
+    margin-block-start: 0; }
+  .person__patel__job, .person__bruce__job, .person__iva__job {
+    margin-top: calc(1rem / 2); }
   .person__container {
     padding: calc(1rem * 2); }
   .person__patel__container, .person__bruce__container, .person__iva__container {
@@ -218,6 +224,20 @@ body {
   .person__patel__subcontainer {
     margin-inline-start: 20px;
     margin-block-start: 1rem; }
+  .person__patel__idea, .person__bruce__idea, .person__iva__idea {
+    margin-block-end: calc(1rem * 2); }
+
+@media (min-width: 800px) {
+  .person {
+    display: flex; }
+  .person__patel,
+  .person__bruce,
+  .person__iva {
+    background-color: #202a3c;
+    margin: 5%;
+    border-radius: 5px;
+    margin-inline-start: 2%;
+    margin-inline-end: 2%; } }
 
 .productive {
   color: white; }
