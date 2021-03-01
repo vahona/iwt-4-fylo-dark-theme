@@ -7,6 +7,45 @@ body {
   margin-inline-end: auto;
   background-color: #181f2a; }
 
+.security__title,
+.access__title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 30px; }
+
+.access__title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 24px; }
+
+.diversity__container__title,
+.productive__title,
+.person__patel__name,
+.person__bruce__name,
+.person__iva__name {
+  font-family: Raleway;
+  font-weight: 700; }
+
+.masthead__navigation__list,
+.security__paragraph,
+.security__button,
+.diversity__container__paragraph,
+.productive__container,
+.productive__link,
+.person__patel__idea,
+.person__bruce__idea,
+.person__iva__idea,
+.person__patel__job,
+.person__bruce__job,
+.person__iva__job,
+.access__information,
+.access__form__input,
+.access__form__input,
+.footer {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 15px; }
+
 .masthead {
   display: flex;
   position: relative; }
@@ -172,7 +211,6 @@ body {
     margin-inline-start: 5%;
     margin-inline-end: 5%; }
   .productive__link {
-    text-decoration: none;
     color: #65e2d9;
     margin-inline-start: 5%; }
   .productive__text__container {
