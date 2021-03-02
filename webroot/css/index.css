@@ -171,11 +171,11 @@ main {
   color: white;
   background-color: #0b1523; }
   .footer__paragraph {
-    margin-inline-start: 5%; }
+    margin-inline-start: 10%; }
   .footer__article__container--link {
     text-decoration: none;
     color: white;
-    margin-inline-start: 5%; }
+    margin-inline-start: 10%; }
   .footer__article__container {
     margin-top: 1rem; }
   .footer__navigation1__list, .footer__navigation2__list, .footer__navigation3__list {
