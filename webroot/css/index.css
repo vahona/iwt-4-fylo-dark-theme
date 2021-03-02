@@ -234,7 +234,9 @@ main {
   background-image: url(../images/bg-quotes.png);
   background-repeat: no-repeat;
   background-position: 22px 6%;
-  padding-block-start: 10%; }
+  padding-block-start: 10%;
+  margin-inline-start: 5%;
+  margin-inline-end: 5%; }
   .person__patel, .person__bruce, .person__iva {
     background-color: #202a3c;
     margin: 5%;
