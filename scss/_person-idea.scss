@@ -1,6 +1,9 @@
 .person {
     color: white;
     margin-bottom: calc(#{$margin-bottom} * 7);
+    background-image: url(../images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: 0 10%;
 
 
     &__patel,

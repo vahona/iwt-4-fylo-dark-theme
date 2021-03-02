@@ -223,7 +223,10 @@ body {
 
 .person {
   color: white;
-  margin-bottom: calc(1rem * 7); }
+  margin-bottom: calc(1rem * 7);
+  background-image: url(../images/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: 0 10%; }
   .person__patel, .person__bruce, .person__iva {
     background-color: #202a3c;
     margin: 5%;
