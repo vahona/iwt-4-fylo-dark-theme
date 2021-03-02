@@ -80,3 +80,29 @@
     padding: $padding;
     background-size: 100%;
 }
+
+@media(min-width: 800px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(4, 24%);
+        grid-gap: 2%;
+    }
+
+    .footer__links {
+        display: flex;
+        margin-block-start: 19rem;
+    }
+
+
+    .footer__container {
+        margin-inline-start: $margin-inline-start;
+    }
+
+
+    .footer__article {
+        margin-block-start: 19rem;
+    }
+
+
+
+}

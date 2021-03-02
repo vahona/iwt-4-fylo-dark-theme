@@ -185,13 +185,14 @@
         </section>
     </main>
     <footer class="footer">
-        <img class="footer__image" src="./images/logo.svg" alt="logo">
-        <p class="footer__paragraph">
-            <img class="footer__icon__location" src="./images/lo.png" alt="">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua
-        </p>
-
+        <div class="footer__container">
+            <img class="footer__image" src="./images/logo.svg" alt="logo">
+            <p class="footer__paragraph">
+                <img class="footer__icon__location" src="./images/lo.png" alt="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua
+            </p>
+        </div>
         <article class="footer__article">
             <div class="footer__article__container">
                 <a class="footer__article__container--link" href="#/contact">
@@ -207,22 +208,25 @@
             </div>
         </article>
         <article class="footer__links">
-            <nav class="footer__navigation1">
-                <ul class="footer__navigation1__list">
-                    <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
-                            href="/aboutus">
-                            About us </a></li>
-                    <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
-                            href="/jobs">
-                            Jobs </a></li>
-                    <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
-                            href="/press">
-                            Press </a></li>
-                    <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
-                            href="/blog">
-                            Blog </a></li>
-                </ul>
-            </nav>
+            <div>
+                <nav class="footer__navigation1">
+                    <ul class="footer__navigation1__list">
+                        <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
+                                href="/aboutus">
+                                About us </a></li>
+                        <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
+                                href="/jobs">
+                                Jobs </a></li>
+                        <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
+                                href="/press">
+                                Press </a></li>
+                        <li class="footer__navigation1__linklist"><a class="footer__navigation1__list--anchore"
+                                href="/blog">
+                                Blog </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
             <nav class="footer__navigation2">
                 <ul class="footer__navigation2__list">
                     <li class="footer__navigation2__linklist"><a class="footer__navigation2__list--anchore"
@@ -235,7 +239,9 @@
                             Privacy </a></li>
                 </ul>
             </nav>
-
+            </div>
+        </article>
+        <article class="footer__links">
             <nav class="footer__navigation3">
                 <ul class="footer__navigation3__list">
                     <li class="footer__navigation3__linklist"><a class="footer__navigation3__list--anchore facebook"
@@ -246,6 +252,7 @@
                             href="/istogram"> Istogram </a></li>
                 </ul>
             </nav>
+            </div>
         </article>
     </footer>
 </body>
