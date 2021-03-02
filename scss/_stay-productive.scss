@@ -1,5 +1,7 @@
 .productive {
     color: white;
+    margin-block-start: calc(#{$margin-block-start} * 10);
+    margin-block-end: calc(#{$margin-block-end} * 10);
 
 
     &__title,

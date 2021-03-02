@@ -56,14 +56,14 @@ main {
     list-style: none;
     display: flex;
     position: absolute;
-    right: 10%; }
+    right: 15%; }
   .masthead__navigation__list--anchore {
     text-decoration: none;
     color: gainsboro;
     width: 100%; }
   .masthead__navigation__list--link {
     margin: 10%;
-    margin-top: calc(1rem * 2); }
+    margin-top: 10; }
 
 .security {
   text-align: center; }
@@ -83,7 +83,7 @@ main {
 
 .masthead__logotitle {
   width: 80%;
-  margin: calc(1rem * 2); }
+  margin: 5%; }
 
 .security__image,
 .productive__image {
@@ -117,7 +117,8 @@ main {
 
 .diversity {
   text-align: center;
-  margin-block-start: 5%;
+  margin-block-start: calc(1rem * 10);
+  margin-block-end: calc(1rem * 10);
   margin-inline-end: 5%;
   margin-inline-start: 5%;
   background-image: url(../images/bg-curvy-desktop.svg);
@@ -275,7 +276,9 @@ main {
     margin-inline-end: 2%; } }
 
 .productive {
-  color: white; }
+  color: white;
+  margin-block-start: calc(1rem * 10);
+  margin-block-end: calc(1rem * 10); }
   .productive__title, .productive__container {
     margin-inline-start: 5%;
     margin-inline-end: 5%; }

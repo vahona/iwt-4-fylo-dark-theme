@@ -8,7 +8,7 @@
         list-style: $list-style;
         display: flex;
         position: absolute;
-        right: 10%;
+        right: 15%;
 
         
     }
@@ -23,7 +23,7 @@
 
     &__navigation__list--link {
         margin: 10%;
-        margin-top: calc(#{$margin-top} * 2);
+        margin-top: 10;
     }
 
 }

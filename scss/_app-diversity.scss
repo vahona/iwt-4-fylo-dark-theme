@@ -1,6 +1,7 @@
 .diversity {
     text-align: center;
-    margin-block-start: 5%;
+    margin-block-start: calc(#{$margin-block-start} * 10);
+    margin-block-end: calc(#{$margin-block-end} * 10);
     margin-inline-end: 5%;
     margin-inline-start: 5%;
     background-image: url(../images/bg-curvy-desktop.svg);
