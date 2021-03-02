@@ -211,7 +211,7 @@ body {
 @media (min-width: 800px) {
   .footer {
     display: grid;
-    grid-template-columns: repeat(4, 24%);
+    grid-template-columns: repeat(4, 21%);
     grid-gap: 2%; }
   .footer__links {
     display: flex;
