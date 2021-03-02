@@ -3,7 +3,8 @@
     margin-bottom: calc(#{$margin-bottom} * 7);
     background-image: url(../images/bg-quotes.png);
     background-repeat: no-repeat;
-    background-position: 0 10%;
+    background-position: 22px 6%;
+    padding-block-start: 10%;
 
 
     &__patel,
@@ -58,8 +59,14 @@
 @media(min-width: 800px) {
     .person {
         display: flex;
+        background-image: url(../images/bg-quotes.png);
+        background-repeat: no-repeat;
+        background-position: 0 10%;
+         padding-block-start: 1%;
 
     }
+
+    
 
     .person__patel,
     .person__bruce,
