@@ -7,6 +7,9 @@ body {
   margin-inline-end: auto;
   background-color: #181f2a; }
 
+main {
+  background-color: #181f2a; }
+
 .security__title,
 .access__title {
   font-family: Raleway;
@@ -59,7 +62,8 @@ body {
     color: gainsboro;
     width: 100%; }
   .masthead__navigation__list--link {
-    margin: 5%; }
+    margin: 10%;
+    margin-top: calc(1rem * 2); }
 
 .security {
   text-align: center; }
@@ -78,7 +82,8 @@ body {
     padding-left: calc(1rem * 3); }
 
 .masthead__logotitle {
-  width: 80%; }
+  width: 80%;
+  margin: calc(1rem * 2); }
 
 .security__image,
 .productive__image {

@@ -22,7 +22,8 @@
 
 
     &__navigation__list--link {
-        margin: 5%;
+        margin: 10%;
+        margin-top: calc(#{$margin-top} * 2);
     }
 
 }
