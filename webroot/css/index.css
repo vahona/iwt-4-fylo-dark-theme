@@ -136,8 +136,8 @@ main {
 .access {
   color: white;
   text-align: center;
-  margin-inline-start: 5%;
-  margin-inline-end: 5%;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
   background-color: #1c2431;
   position: absolute;
   margin-top: calc(1rem * -6); }
