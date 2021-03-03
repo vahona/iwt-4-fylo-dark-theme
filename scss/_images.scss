@@ -21,7 +21,7 @@
 
 .footer__image {
     margin-inline-start: 5%;
-    margin-block-start: calc(#{$margin-block-start} * 15) ;
+    margin-block-start: calc(#{$margin-block-start} * 20) ;
   
 }
 
@@ -41,5 +41,11 @@
         width: 50%;
         margin-inline-end: 5%;
         margin-inline-start: 10%;
-}
+
+    }
+    .footer__image {
+        margin-block-start: calc(#{$margin-block-start} * 15) ;
+    }
+
+
 }
