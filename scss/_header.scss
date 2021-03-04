@@ -48,7 +48,8 @@
         padding-top: $padding-top;
         padding-bottom: $padding-bottom;
         padding-right: calc(#{$padding-right} * 3);
-        padding-left:  calc(#{$padding-left} * 3);;
+        padding-left:  calc(#{$padding-left} * 3);
+        cursor: pointer;
     }
 }
 

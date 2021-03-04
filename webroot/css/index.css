@@ -79,7 +79,8 @@ main {
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: calc(1rem * 3);
-    padding-left: calc(1rem * 3); }
+    padding-left: calc(1rem * 3);
+    cursor: pointer; }
 
 .masthead__logotitle {
   width: 80%;
@@ -150,7 +151,8 @@ main {
     padding-inline-start: calc(1rem * 3);
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-radius: 20px; }
+    border-radius: 20px;
+    cursor: pointer; }
   .access__form__button {
     border: none;
     padding-inline-end: calc(1rem * 4);
@@ -161,7 +163,8 @@ main {
     background-color: #65e2d9;
     color: white;
     margin-top: 1rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    cursor: pointer; }
   .access__container {
     padding: 1rem; }
 
